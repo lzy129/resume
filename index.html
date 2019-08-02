@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="./img/resume.png" />
+    <title>个人简历</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .left {
+        background-color: #414754;
+        width: 35vw;
+        height: 100vh;
+        position: relative;
+      }
+
+      .left_box {
+        box-sizing: border-box;
+        position: absolute;
+        top: 10vh;
+        left: 2vw;
+        width: 31vw;
+      }
+
+      .left span {
+        float: right;
+        color: white;
+        font-size: 1em;
+      }
+
+      .right {
+        float: right;
+        width: 65vw;
+        height: 100vh;
+        overflow: auto;
+      }
+
+      .right ul {
+        list-style: none;
+        width: 52vw;
+        float: left;
+        margin: 0.5em;
+      }
+
+      .right ul li {
+        width: 22vw;
+        display: inline-block;
+        margin-right: 2vw;
+        height: 3vmax;
+      }
+
+      .right ul li div {
+        width: 18vw;
+        border-bottom: 1px solid gainsboro;
+        display: inline-block;
+        height: 3vmax;
+        line-height: 3vmax;
+        font-size: 1.5vmax;
+        float: right;
+      }
+
+      .right ul li img {
+        width: 3vw;
+        height: 3vmax;
+      }
+
+      .p {
+        height: 3vmax;
+        line-height: 3vmax;
+        font-weight: bold;
+        font-size: 2vmax;
+        margin-top: 1vh;
+      }
+      .p1 {
+        text-indent: 2em;
+      }
+
+      fieldset {
+        margin-top: 1vh;
+      }
+
+      #text {
+        transition: all 1s linear;
+        opacity: 1;
+      }
+      @media (max-width: 800px) {
+        .left span {
+          font-size: 3vmin;
+        }
+
+        .right ul li {
+          width: 52vw;
+          display: inline-block;
+          margin-right: 0vw;
+          height: 5vmax;
+          margin: 1vw;
+        }
+        .right ul li img {
+          width: 5vw;
+          height: 5vmin;
+          float: left;
+        }
+
+        .right ul li div {
+          width: 45vmin;
+          height: 5vmin;
+          font-size: 3vmin;
+          float: none;
+          float: left;
+          margin-left: 1vw;
+        }
+
+        .p {
+          font-size: 4vmin;
+        }
+
+        .p1 {
+          font-size: 2.5vmin;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div style="display: flex">
+      <div class="left">
+        <div class="left_box">
+          <span style="font-weight:bold;font-size: 1.2em ">李志阳</span
+          ><br /><br /><br />
+          <bdo dir="rtl">
+            <span id="text"></span>
+          </bdo>
+        </div>
+      </div>
+
+      <div class="right">
+        <div style="width: 55vw;margin:auto">
+          <fieldset>
+            <legend class="p">基本信息</legend>
+            <div style="margin:auto;width:53vw">
+              <ul>
+                <li>
+                  <img src="./img/xingbie.png" />
+                  <div>男</div>
+                </li>
+                <li>
+                  <img src="./img/nianling.png" />
+                  <div>21</div>
+                </li>
+                <li>
+                  <img src="./img/dianhua.png" />
+                  <div>13407279751</div>
+                </li>
+                <li>
+                  <img src="./img/youxiang.png" />
+                  <div>974181560@qq.com</div>
+                </li>
+                <li>
+                  <img src="./img/dizhi.png" />
+                  <div>湖北武汉</div>
+                </li>
+                <li>
+                  <img src="./img/aihao.png" />
+                  <div>玩游戏，听音乐，看电影</div>
+                </li>
+              </ul>
+            </div>
+          </fieldset>
+        </div>
+        <div style="clear: both"></div>
+        <div style="width: 55vw;margin:auto">
+          <fieldset>
+            <legend class="p">工作经历</legend>
+            <p
+              class="p1"
+              style="text-indent: 0em;box-shadow: 5px 5px 20px gray;margin:1em;padding: 1em"
+            >
+              在公司主要负责的是：小程序代码编写和，网站跟新与维护和软件的测试
+            </p>
+          </fieldset>
+        </div>
+        <div style="width: 55vw;margin:auto">
+          <fieldset>
+            <legend class="p">项目经验</legend>
+            <div
+              style="box-shadow: 5px 5px 20px gray;margin: 0.5em;border: 1px solid gainsboro;padding: 1em"
+            >
+              <p class="p1" style="text-indent: 0em;">
+                <span style="font-weight: bold;"
+                  >项目一知识整理小程序---开发工具：小程序开发工具</span
+                ><br />
+                主界面分为6个版块分别为：html、css，js基础，es6基础，vue基础，小程序基础，nodejs基础。主要是一些用的比较多的功能或一些比较有用的功能。如果基础中的内容比较多，会有搜索功能。
+              </p>
+            </div>
+            <div
+              style="box-shadow: 5px 5px 20px gray;margin: 0.5em;border: 1px solid gainsboro;padding: 1em"
+            >
+              <p class="p1" style="text-indent: 0em">
+                <span style="font-weight: bold;"
+                  >项目二：物料管理小程序---开发工具：小程序开发工具</span
+                >
+                <br />
+                用户要登入或者注册以后登入主界面。<br />
+                主界面也是6个版块：消息中心，在库查询，清单查询，添加物料，扫码验证，修改密码。<br />
+                1.消息中心的消息可以删除<br />
+                2.在库查询可以通过设备编号，物料代码，物料编号查询在库或不再库的物料。<br />
+                3.清单查询通过时间来查询对物料的存入或取出记录<br />
+                4.添加物料对物料的一些基本信息进行添加<br />
+                5.扫码验证把用户的账号生成二维码 6.修改密码用户对密码的修改<br />
+              </p>
+            </div>
+            <div
+              style="box-shadow: 5px 5px 20px gray;margin: 0.5em;border: 1px solid gainsboro;padding: 1em"
+            >
+              <p class="p1" style="text-indent: 0em">
+                <span style="font-weight: bold;"
+                  >项目三：网站新闻的后台----开发工具：VScode
+                </span>
+                <br />
+                新闻前台：用vue框架的请求数据方式请求数据，然后渲染到页面上到<br />
+                新闻后台：主要功能：添加新闻，删除新闻<br />
+              </p>
+            </div>
+            <div
+              style="box-shadow: 5px 5px 20px gray;margin: 0.5em;border: 1px solid gainsboro;padding: 1em"
+            >
+              <p class="p1" style="text-indent: 0em">
+                <span style="font-weight: bold;"
+                  >项目四：个人的音乐app----开发工具：VScode
+                </span>
+                <br />
+                一共三个板块，热门音乐，热门歌单，歌曲的mv<br />
+                主要功能：因为是个人app，所以我只写了顺序播放歌曲<br />
+              </p>
+            </div>
+          </fieldset>
+        </div>
+        <div style="width: 55vw;margin:auto">
+          <fieldset>
+            <legend class="p">熟悉技能</legend>
+            <p
+              class="p1"
+              style="text-indent: 0em;margin:1em;box-shadow: 5px 5px 20px gray;padding: 1em"
+            >
+              熟悉Windows操作和Office办公软件的使用<br />
+              熟悉运用BootStrap框架<br />
+              熟悉运用HTML5、CSS\CSS3 JavaScript Jquery 语言<br />
+              熟悉MySql掌握的数据库基础知识和基础的数据库设计能力<br />
+              初步了解UI有关知识<br />
+              了解ES6，nodeJS和vue编程<br />
+              熟悉小程序编程<br />
+              了解GitHub
+            </p>
+          </fieldset>
+        </div>
+        <div style="width: 55vw;margin:auto">
+          <fieldset>
+            <legend class="p">自我评价</legend>
+            <p
+              class="p1"
+              style="margin:1em;box-shadow: 5px 5px 20px gray;padding: 1em"
+            >
+              本人性格随和，有很强的学习能力，善于思考，也很愿意学习新的知识。时刻保持良好的心态，踏实做事。明显的特点是乐观自信、温和开朗，稳重，因此我的人际关系和谐，适应能力强，爱好电脑，科普知识，喜欢钻研，正因为这些增强了我的实干精神，喜欢将事情或问题及早的解决。本人性格随和，有很强的学习能力，善于思考，也很愿意学习新的知识。时刻保持良好的心态，踏实做事。明显的特点是乐观自信、温和开朗，稳重，因此我的人际关系和谐，适应能力强，爱好电脑，科普知识，喜欢钻研，正因为这些增强了我的实干精神，喜欢将事情或问题及早的解决。
+            </p>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    var arr = [
+      "生命再怎么粗糙，我们都要活得骄傲！日子再怎么平淡，我们都要过得坦荡！时间再怎么无聊，我们都不能去敷衍！因为只要心态年轻，一切皆有可能",
+      "我们可以不必理会别人奢侈的掌声，但应在乎自己在胜利征途上迈出坚实的每一个脚印",
+      "不懂时，别乱说。懂得时，别多说。心乱时，慢慢说。没话时，就别说。每天开心笑，累了就睡觉，醒了就微笑。生活，没什么大不了!在这世上，最容易变的是人心，但最天荒地老的也是人心",
+      "人这辈子，有人羡慕你，有人讨厌你，有人嫉妒你，有人看不起你，没关系，他们都是外人; 生活就是这样，你所做的一切不能让每个人都满意。不要为了讨好别人，而丟失自己的本性",
+      "与其讨好别人，不如武装自己;与其逃避现实，不如笑对人生;与其听风听雨，不如昂首出击;与其看人故事，不如出彩自己。勇敢地正视自己的过错，比转嫁错误于无辜的人，更容易获得尊重和幸福"
+    ];
+    window.addEventListener("load", function() {
+      var x = document.getElementById("text");
+      var num = parseInt(Math.random() * arr.length);
+      var content = arr[num];
+      x.innerText = content;
+      setInterval(function() {
+        x.style.opacity = 0;
+        var time = setInterval(function() {
+          x.style.opacity = 1;
+          num = parseInt(Math.random() * arr.length);
+          content = arr[num];
+          x.innerText = content;
+          clearInterval(time);
+        }, 1000);
+      }, 15000);
+    });
+  </script>
+</html>
